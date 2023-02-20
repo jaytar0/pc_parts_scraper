@@ -3,6 +3,7 @@ Short project for scraping pc-parts-picker site. Features data scraping and data
 
 Disclaimer: this project was started prior to the DE end to end project and I plan to flesh this out in the future so I have an analytical dashboard with daily updates.
 
+2nd Disclaimer: this project also does not include the chrome profiles or driver needed for selenium.
 
 ### Formatting
 Described in the formatting txt file, but lists out my idea for how the database schema should be as I scraped the website. This makes it easier in putting the parquet files to a posgresql, GCP, miniIO if I choose to in the future.
