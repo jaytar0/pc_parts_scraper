@@ -1,0 +1,39 @@
+
+Table Directory and Schema for the PC Builds Project
+
+-----------------------------------------------------------------------------
+[BUILD DIRECTORY]
+
+link format: 'https://' + 'pcpartpicker.com/builds/#page=' + {page_number}
+talbe name:  build_summary
+
+- build_id - unique fingerprint generated for id 
+- user - username of builder
+- build_name - name of the published build
+- post_likes_count - number of likes
+- post_comments_count - number of comments
+- build_link - link to published build 
+
+-----------------------------------------------------------------------------
+[DETAILS OF BUILDS]
+
+table name:  build_details
+
+- build_id - unique fingerprint generated for id 
+- build_list_id - unique id linking to build list
+- build_date - build publish date
+- description - author's notes (generally purpose of the build)
+- build_cost - build cost in usd
+
+-----------------------------------------------------------------------------
+[BUILD LIST]
+
+link format: 'https://' + 'pcpartpicker.com/list/' + {build_id}
+table name:  build_list
+
+- build_list_id - unique id for build list
+- component_type - pc componenet type
+- component_name - model name of the component
+- component_price - pricing of component in usd according to base price of vendor
+
+-----------------------------------------------------------------------------
