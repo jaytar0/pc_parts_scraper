@@ -1,4 +1,6 @@
 # pc_parts_scraper
+
+### Project Overview
 Short project for scraping pc-parts-picker site. Features data scraping and database design.
 
 Disclaimer: this project was started prior to the DE end to end project and I plan to flesh this out in the future so I have an analytical dashboard with daily updates.
